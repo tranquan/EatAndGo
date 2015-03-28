@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA69C79119C40DC100AE967C"
-               BuildableName = "EatAndGo.app"
+               BuildableName = "Eat &amp; Go.app"
                BlueprintName = "EatAndGo"
                ReferencedContainer = "container:EatAndGo.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA69C79119C40DC100AE967C"
-            BuildableName = "EatAndGo.app"
+            BuildableName = "Eat &amp; Go.app"
             BlueprintName = "EatAndGo"
             ReferencedContainer = "container:EatAndGo.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA69C79119C40DC100AE967C"
-            BuildableName = "EatAndGo.app"
+            BuildableName = "Eat &amp; Go.app"
             BlueprintName = "EatAndGo"
             ReferencedContainer = "container:EatAndGo.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA69C79119C40DC100AE967C"
-            BuildableName = "EatAndGo.app"
+            BuildableName = "Eat &amp; Go.app"
             BlueprintName = "EatAndGo"
             ReferencedContainer = "container:EatAndGo.xcodeproj">
          </BuildableReference>
