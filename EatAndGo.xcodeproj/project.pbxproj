@@ -31,14 +31,6 @@
 		BA5415F319C456F000DE1BB9 /* btnSelected_Green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5415F119C456F000DE1BB9 /* btnSelected_Green@2x.png */; };
 		BA5415F619C4668100DE1BB9 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5415F519C4668100DE1BB9 /* DetailsViewController.m */; };
 		BA54160019C46F4500DE1BB9 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5415F819C46F4500DE1BB9 /* libPayPalMobile.a */; };
-		BA54160219C472F900DE1BB9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160119C472F900DE1BB9 /* SystemConfiguration.framework */; };
-		BA54160419C4733400DE1BB9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160319C4733400DE1BB9 /* MessageUI.framework */; };
-		BA54160619C4735100DE1BB9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160519C4735100DE1BB9 /* AudioToolbox.framework */; };
-		BA54160819C4736C00DE1BB9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160719C4736C00DE1BB9 /* CoreVideo.framework */; };
-		BA54160A19C4739700DE1BB9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160919C4739700DE1BB9 /* CoreMedia.framework */; };
-		BA54160C19C473B400DE1BB9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160B19C473B400DE1BB9 /* AVFoundation.framework */; };
-		BA54160E19C4743900DE1BB9 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160D19C4743900DE1BB9 /* libstdc++.dylib */; };
-		BA54161019C4746700DE1BB9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160F19C4746700DE1BB9 /* MobileCoreServices.framework */; };
 		BA54161319C47C0E00DE1BB9 /* MONActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54161219C47C0E00DE1BB9 /* MONActivityIndicatorView.m */; };
 		BA54162A19C4869E00DE1BB9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54161819C4869E00DE1BB9 /* AFHTTPRequestOperation.m */; };
 		BA54162B19C4869E00DE1BB9 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54161A19C4869E00DE1BB9 /* AFHTTPRequestOperationManager.m */; };
@@ -65,9 +57,6 @@
 		BA54166419C4CB4100DE1BB9 /* btnSelect_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = BA54166019C4CB4100DE1BB9 /* btnSelect_Orange.png */; };
 		BA54166B19C50B3900DE1BB9 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54166819C50B3900DE1BB9 /* UIScrollView+SVInfiniteScrolling.m */; };
 		BA54166C19C50B3900DE1BB9 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54166A19C50B3900DE1BB9 /* UIScrollView+SVPullToRefresh.m */; };
-		BA69C79619C40DC100AE967C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA69C79519C40DC100AE967C /* Foundation.framework */; };
-		BA69C79819C40DC100AE967C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA69C79719C40DC100AE967C /* CoreGraphics.framework */; };
-		BA69C79A19C40DC100AE967C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA69C79919C40DC100AE967C /* UIKit.framework */; };
 		BA69C7A019C40DC100AE967C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA69C79E19C40DC100AE967C /* InfoPlist.strings */; };
 		BA69C7A219C40DC100AE967C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69C7A119C40DC100AE967C /* main.m */; };
 		BA69C7A619C40DC100AE967C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69C7A519C40DC100AE967C /* AppDelegate.m */; };
@@ -80,8 +69,17 @@
 		BA69C7C119C40DC100AE967C /* EatAndGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69C7C019C40DC100AE967C /* EatAndGoTests.m */; };
 		BA69C7CC19C40EF000AE967C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69C7CB19C40EF000AE967C /* MainViewController.m */; };
 		BA69C7CE19C41F1200AE967C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA69C7CD19C41E4600AE967C /* icon@2x.png */; };
-		BA69C7D019C4209000AE967C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA69C7CF19C4209000AE967C /* CoreLocation.framework */; };
 		BA9BAA561AC69D2300A5763C /* RPNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAA551AC69D2300A5763C /* RPNetworkUtil.m */; };
+		BA9BAA5F1AC6D01000A5763C /* RPBeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAA5E1AC6D01000A5763C /* RPBeaconManager.m */; };
+		BA9BAA641AC6D1A100A5763C /* RPLoadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAA631AC6D1A100A5763C /* RPLoadingVC.m */; };
+		BA9BAA691AC6D28E00A5763C /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA9BAA661AC6D28E00A5763C /* SVProgressHUD.bundle */; };
+		BA9BAA6A1AC6D28E00A5763C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAA681AC6D28E00A5763C /* SVProgressHUD.m */; };
+		BACE0A061AC6DA7000DFEDFA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9BAA6B1AC6D68B00A5763C /* CoreBluetooth.framework */; };
+		BACE0A071AC6DA7900DFEDFA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160119C472F900DE1BB9 /* SystemConfiguration.framework */; };
+		BACE0A081AC6DA8700DFEDFA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160719C4736C00DE1BB9 /* CoreVideo.framework */; };
+		BACE0A091AC6DA8E00DFEDFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA69C79719C40DC100AE967C /* CoreGraphics.framework */; };
+		BACE0A0A1AC6DA9500DFEDFA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA54160B19C473B400DE1BB9 /* AVFoundation.framework */; };
+		BACE0A0B1AC6DAA600DFEDFA /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9BAA6D1AC6D6FC00A5763C /* EstimoteSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +206,15 @@
 		BA69C7CF19C4209000AE967C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BA9BAA541AC69D2300A5763C /* RPNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPNetworkUtil.h; sourceTree = "<group>"; };
 		BA9BAA551AC69D2300A5763C /* RPNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNetworkUtil.m; sourceTree = "<group>"; };
+		BA9BAA5D1AC6D01000A5763C /* RPBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPBeaconManager.h; sourceTree = "<group>"; };
+		BA9BAA5E1AC6D01000A5763C /* RPBeaconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPBeaconManager.m; sourceTree = "<group>"; };
+		BA9BAA621AC6D1A100A5763C /* RPLoadingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLoadingVC.h; sourceTree = "<group>"; };
+		BA9BAA631AC6D1A100A5763C /* RPLoadingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLoadingVC.m; sourceTree = "<group>"; };
+		BA9BAA661AC6D28E00A5763C /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		BA9BAA671AC6D28E00A5763C /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		BA9BAA681AC6D28E00A5763C /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		BA9BAA6B1AC6D68B00A5763C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BA9BAA6D1AC6D6FC00A5763C /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = "../../../z-lib/Estimote-iOS-SDK/EstimoteSDK/EstimoteSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,19 +222,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA54161019C4746700DE1BB9 /* MobileCoreServices.framework in Frameworks */,
-				BA54160E19C4743900DE1BB9 /* libstdc++.dylib in Frameworks */,
-				BA54160C19C473B400DE1BB9 /* AVFoundation.framework in Frameworks */,
-				BA54160A19C4739700DE1BB9 /* CoreMedia.framework in Frameworks */,
-				BA54160819C4736C00DE1BB9 /* CoreVideo.framework in Frameworks */,
-				BA54160619C4735100DE1BB9 /* AudioToolbox.framework in Frameworks */,
-				BA54160419C4733400DE1BB9 /* MessageUI.framework in Frameworks */,
-				BA54160219C472F900DE1BB9 /* SystemConfiguration.framework in Frameworks */,
-				BA69C7D019C4209000AE967C /* CoreLocation.framework in Frameworks */,
-				BA69C79819C40DC100AE967C /* CoreGraphics.framework in Frameworks */,
-				BA69C79A19C40DC100AE967C /* UIKit.framework in Frameworks */,
+				BACE0A0B1AC6DAA600DFEDFA /* EstimoteSDK.framework in Frameworks */,
+				BACE0A0A1AC6DA9500DFEDFA /* AVFoundation.framework in Frameworks */,
+				BACE0A091AC6DA8E00DFEDFA /* CoreGraphics.framework in Frameworks */,
+				BACE0A081AC6DA8700DFEDFA /* CoreVideo.framework in Frameworks */,
+				BACE0A071AC6DA7900DFEDFA /* SystemConfiguration.framework in Frameworks */,
+				BACE0A061AC6DA7000DFEDFA /* CoreBluetooth.framework in Frameworks */,
 				BA54160019C46F4500DE1BB9 /* libPayPalMobile.a in Frameworks */,
-				BA69C79619C40DC100AE967C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +297,7 @@
 		BA5415F719C46F2F00DE1BB9 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BA9BAA651AC6D28E00A5763C /* SVProgressHUD */,
 				BA54166519C50B3900DE1BB9 /* SVPullToRefresh */,
 				BA54163319C486A500DE1BB9 /* UIKit+AFNetworking */,
 				BA54161619C4869E00DE1BB9 /* AFNetworking */,
@@ -416,17 +418,19 @@
 		BA69C79419C40DC100AE967C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA54160F19C4746700DE1BB9 /* MobileCoreServices.framework */,
-				BA54160D19C4743900DE1BB9 /* libstdc++.dylib */,
+				BA54160519C4735100DE1BB9 /* AudioToolbox.framework */,
 				BA54160B19C473B400DE1BB9 /* AVFoundation.framework */,
+				BA9BAA6B1AC6D68B00A5763C /* CoreBluetooth.framework */,
+				BA69C79719C40DC100AE967C /* CoreGraphics.framework */,
+				BA69C7CF19C4209000AE967C /* CoreLocation.framework */,
 				BA54160919C4739700DE1BB9 /* CoreMedia.framework */,
 				BA54160719C4736C00DE1BB9 /* CoreVideo.framework */,
-				BA54160519C4735100DE1BB9 /* AudioToolbox.framework */,
-				BA54160319C4733400DE1BB9 /* MessageUI.framework */,
-				BA54160119C472F900DE1BB9 /* SystemConfiguration.framework */,
-				BA69C7CF19C4209000AE967C /* CoreLocation.framework */,
+				BA9BAA6D1AC6D6FC00A5763C /* EstimoteSDK.framework */,
 				BA69C79519C40DC100AE967C /* Foundation.framework */,
-				BA69C79719C40DC100AE967C /* CoreGraphics.framework */,
+				BA54160D19C4743900DE1BB9 /* libstdc++.dylib */,
+				BA54160319C4733400DE1BB9 /* MessageUI.framework */,
+				BA54160F19C4746700DE1BB9 /* MobileCoreServices.framework */,
+				BA54160119C472F900DE1BB9 /* SystemConfiguration.framework */,
 				BA69C79919C40DC100AE967C /* UIKit.framework */,
 				BA69C7B419C40DC100AE967C /* XCTest.framework */,
 			);
@@ -448,8 +452,12 @@
 				BA69C7CB19C40EF000AE967C /* MainViewController.m */,
 				BA5415F419C4668100DE1BB9 /* DetailsViewController.h */,
 				BA5415F519C4668100DE1BB9 /* DetailsViewController.m */,
+				BA9BAA621AC6D1A100A5763C /* RPLoadingVC.h */,
+				BA9BAA631AC6D1A100A5763C /* RPLoadingVC.m */,
 				BA9BAA541AC69D2300A5763C /* RPNetworkUtil.h */,
 				BA9BAA551AC69D2300A5763C /* RPNetworkUtil.m */,
+				BA9BAA5D1AC6D01000A5763C /* RPBeaconManager.h */,
+				BA9BAA5E1AC6D01000A5763C /* RPBeaconManager.m */,
 			);
 			path = EatAndGo;
 			sourceTree = "<group>";
@@ -482,6 +490,16 @@
 				BA69C7BD19C40DC100AE967C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA9BAA651AC6D28E00A5763C /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BAA661AC6D28E00A5763C /* SVProgressHUD.bundle */,
+				BA9BAA671AC6D28E00A5763C /* SVProgressHUD.h */,
+				BA9BAA681AC6D28E00A5763C /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -590,6 +608,7 @@
 				BA5415E119C44EDC00DE1BB9 /* 9@2x.png in Resources */,
 				BA54166219C4CB4100DE1BB9 /* btnSelect_Blue@2x.png in Resources */,
 				BA5415E619C44EDC00DE1BB9 /* 14@2x.png in Resources */,
+				BA9BAA691AC6D28E00A5763C /* SVProgressHUD.bundle in Resources */,
 				BA54166419C4CB4100DE1BB9 /* btnSelect_Orange.png in Resources */,
 				BA5415DB19C44EDC00DE1BB9 /* 3@2x.png in Resources */,
 				BA5415F319C456F000DE1BB9 /* btnSelected_Green@2x.png in Resources */,
@@ -621,10 +640,12 @@
 				BA54162F19C4869E00DE1BB9 /* AFURLConnectionOperation.m in Sources */,
 				BA54164A19C486A500DE1BB9 /* UIProgressView+AFNetworking.m in Sources */,
 				BA54162C19C4869E00DE1BB9 /* AFHTTPSessionManager.m in Sources */,
+				BA9BAA6A1AC6D28E00A5763C /* SVProgressHUD.m in Sources */,
 				BA54163019C4869E00DE1BB9 /* AFURLRequestSerialization.m in Sources */,
 				BA5415BF19C43C0A00DE1BB9 /* PopupView.m in Sources */,
 				BA54164819C486A500DE1BB9 /* UIButton+AFNetworking.m in Sources */,
 				BA9BAA561AC69D2300A5763C /* RPNetworkUtil.m in Sources */,
+				BA9BAA641AC6D1A100A5763C /* RPLoadingVC.m in Sources */,
 				BA54164919C486A500DE1BB9 /* UIImageView+AFNetworking.m in Sources */,
 				BA69C7A219C40DC100AE967C /* main.m in Sources */,
 				BA69C7CC19C40EF000AE967C /* MainViewController.m in Sources */,
@@ -636,6 +657,7 @@
 				BA54166B19C50B3900DE1BB9 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
 				BA54162E19C4869E00DE1BB9 /* AFSecurityPolicy.m in Sources */,
 				BA54163119C4869E00DE1BB9 /* AFURLResponseSerialization.m in Sources */,
+				BA9BAA5F1AC6D01000A5763C /* RPBeaconManager.m in Sources */,
 				BA54162A19C4869E00DE1BB9 /* AFHTTPRequestOperation.m in Sources */,
 				BA54166C19C50B3900DE1BB9 /* UIScrollView+SVPullToRefresh.m in Sources */,
 			);
@@ -761,9 +783,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/DATA/z-lib/Estimote-iOS-SDK/EstimoteSDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EatAndGo/EatAndGo-Prefix.pch";
 				INFOPLIST_FILE = "EatAndGo/EatAndGo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EatAndGo/Libs",
@@ -781,9 +808,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/DATA/z-lib/Estimote-iOS-SDK/EstimoteSDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EatAndGo/EatAndGo-Prefix.pch";
 				INFOPLIST_FILE = "EatAndGo/EatAndGo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EatAndGo/Libs",

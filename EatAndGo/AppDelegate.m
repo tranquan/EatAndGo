@@ -13,14 +13,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
-     (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
+//    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+//     (UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
 
     [[UIView appearance] setTintColor:[UIColor whiteColor]];
     
-//    [[RPNetworkUtil sharedInstance] getFoodsWithCompletion:^(NSHTTPURLResponse *response, id data, NSError *error) {
-//        NSLog(@"c");
-//    }];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    [[RPNetworkUtil sharedInstance] getFoodsWithCompletion:^(NSHTTPURLResponse *response, id data, NSError *error) {
+        NSLog(@"c");
+    }];
     
 //    [[RPNetworkUtil sharedInstance] orderFood:0 table:0 quantity:1 comment:@"test" withCompletion:^(NSHTTPURLResponse *response, id data, NSError *error) {
 //        NSLog(@"c");
